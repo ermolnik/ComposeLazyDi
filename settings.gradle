@@ -1,0 +1,25 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "ArchApp"
+
+include ':app'
+include ':core'
+include ':features'
+include ':components'
+include ':features:news_impl'
+include ':features:news_api'
+include ':core:core_impl'
+include ':core:core_api'
+include ':module_injector'

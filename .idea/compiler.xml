@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.7">
+      <module name="ArchApp.app" target="11" />
+      <module name="ArchApp.components" target="1.8" />
+      <module name="ArchApp.core.core_api" target="1.8" />
+      <module name="ArchApp.core.core_impl" target="11" />
+      <module name="ArchApp.features" target="1.8" />
+      <module name="ArchApp.features.news_api" target="1.8" />
+      <module name="ArchApp.features.news_impl" target="11" />
+      <module name="ArchApp.features.newsimpl" target="11" />
+      <module name="ArchApp.module_injector" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

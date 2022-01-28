@@ -25,7 +25,7 @@ interface Logger {
     fun e(tag: String, message: String, th: Throwable)
 }
 
-class LoggerImpl @Inject constructor(): Logger {
+class LoggerImpl @Inject constructor() : Logger {
     override fun v(tag: String, message: String) {
         Log.v(tag, message)
     }

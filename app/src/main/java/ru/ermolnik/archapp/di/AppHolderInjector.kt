@@ -16,7 +16,8 @@ object AppHolderInjector {
                 object : AppFeatureDependencies {
                     override val appProvider: ApplicationProviderApi =
                         ApplicationProviderImpl(appContext)
-                    override val dependencyHolder: BaseDependencyHolder<out BaseFeatureDependencies> = deps
+                    override val dependencyHolder: BaseDependencyHolder<out BaseFeatureDependencies> =
+                        deps
                 }
             }.dependencies
         }

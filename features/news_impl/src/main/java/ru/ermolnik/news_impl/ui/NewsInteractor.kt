@@ -13,7 +13,11 @@ class NewsInteractorImpl @Inject constructor() : NewsInteractorApi {
 
     override fun getNews(): List<NewsUiModel> {
         return listOf(
-            NewsUiModel("News title", "News subtitle")
+            NewsUiModel("News title", "News subtitle"),
+            NewsUiModel("News title", "News subtitle"),
+            NewsUiModel("News title", "News subtitle"),
+            NewsUiModel("News title", "News subtitle"),
+            NewsUiModel("News title", "News subtitle"),
         )
     }
 }

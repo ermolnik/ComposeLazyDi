@@ -1,6 +1,5 @@
 package ru.ermolnik.archapp.di
 
-import android.content.Context
 import ru.ermolnik.archapp.App
 import ru.ermolnik.module_injector.BaseDependencyHolder
 import ru.ermolnik.module_injector.BaseFeatureDependencies
